@@ -1,0 +1,44 @@
+@media (max-width:1199px) {
+    html {
+        font-size: 8px;
+    }
+
+}
+@media (max-width:991px) {
+    html {
+        font-size: 7px;
+    }
+     .main-text, .main-arrow {
+         display: none;
+     }
+     .header, .menu{
+         flex-flow: column wrap;
+         align-items: center;
+         justify-content: center;
+     }
+     .menu li{
+         padding: 5rem;
+     }
+    .get-started-btn {
+        margin: 0;
+    }
+    .main-price{
+        flex-direction: column;
+        margin: 0;
+    }
+     .footer-menu-list{
+         display: none;
+     }
+     .call-text{
+         padding: 22rem;
+     }
+    
+     .footer-icon{
+         flex-direction: column;
+         padding-bottom: 5rem;
+     }
+     .footer-logo{
+         margin-left: 42rem;
+     }
+}
+
